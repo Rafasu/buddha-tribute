@@ -1,5 +1,32 @@
+
+/* ===========================
+    Media Queries
+=========================== */
+
+/*769px or wider*/
+@media(min-width: 769px){
+    
+    
+    
+}
+
+
+body{
+    line-height: 1.6;
+    font-family: 'Lato', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#image{
+    
+    
+    
+}
+
+
 a:link{
-    color:darkorange;
+    color: darkorange;
 }
 a:visited{
     color:darkred;
