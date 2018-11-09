@@ -102,13 +102,14 @@ img{
     flex-direction: column;
 }
 
+/*With the padding you change the height of the element.*/
 #tribute div{
     border-right: solid;
     text-align: center;
     padding: 1%;
     width: 50.09%;
 }
-
+/*Making the other container start on the othe side.*/
 #tribute div:nth-of-type(even){
     border: none;
     border-left: solid;
@@ -117,7 +118,7 @@ img{
 
 #tribute i{
     align-self: center;
-    
+    background: grey;
     border-radius: 50%;
 }
 
@@ -143,6 +144,7 @@ footer {
 	padding-bottom: 1.7em;
 }
 
+/*Styling the element like an arrow*/
 footer:before {
 	content: '';
 	display: block;  
